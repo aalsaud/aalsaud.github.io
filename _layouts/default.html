@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}" dir="{{ site.dir }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -23,13 +23,13 @@
           <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% endif %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        <ul>
+        <!-- <ul>
         {% if site.show_downloads %}
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
           <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
         {% endif %}
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
+        </ul> -->
       </header>
       <section>
 
