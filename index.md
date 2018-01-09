@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 ---
 
 <div markdown="1" dir="rtl">
